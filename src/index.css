@@ -1,0 +1,31 @@
+*{margin: 0;padding: 0;box-sizing: border-box;scroll-behavior: none;}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+}
+
+/* color: deeppink; */
+/* french rose - #f15483 */
+/* rose #ef018a */
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+ 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media screen and (width:980px) {
+  .product-detail-page{
+    display: flex;
+    gap: .1rem;
+  }  
+}

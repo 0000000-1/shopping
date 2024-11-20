@@ -1,0 +1,37 @@
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 12px;
+    gap: 5;
+    font-size: 20px;
+}
+
+.container-image {
+    background: rgb(71 85 105 / var(--tw-bg-opacity));
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.container-btn {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.btns {
+    background: rgb(234, 234, 234);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    color: red;
+}

@@ -1,0 +1,37 @@
+.header{
+    padding: .4em;
+    display: flex;justify-content: space-between;align-items: center;
+}
+.ft{
+    position: relative;
+    border-radius: 50%;
+    /* right: 16px; */
+    padding: 3px;color: white;
+    background: grey;
+    font-size: 12px;z-index: -1;
+}
+.rt{
+    /* position: absolute; */
+    border-radius: 50%;right: 16px;
+    padding: 3px;color: white;
+    background: grey;
+    font-size: 12px;z-index: -1;
+}
+.header-icons ul{
+    display: flex;
+    gap: .4rem;
+}
+.header-icons ul li a{
+    color: #ef018a;
+}
+.header-icons ul li{
+    list-style: none;
+}
+.material-symbols-outlined {
+    font-size: 20px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}

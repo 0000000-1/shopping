@@ -1,0 +1,41 @@
+.login-case{
+    display: flex;justify-content: center;align-items: center;
+    height: 100vh;width:100%;
+    /* flex-direction: column; */
+    font-size: 16px;
+}
+.login-title-div{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;width: 300px;
+}
+.login-div{
+    gap: 20px;
+    display: flex;    
+    flex-direction: column;
+}
+.input-field{
+font-family: cursive;
+    text-align: start;
+    border-radius: 2px;font-size: 10px;
+    border: none;outline: none;
+    height: 30px;width: 190px;
+    padding: 8px 26px 8px 8px;
+}
+.title-login{
+    position: absolute;
+    top: 40px;
+}
+.btn-submit{
+    /* display: grid;place-content: center; */
+    border-radius: 12px;font-size: 12px;
+    border: none;outline: none;
+    background: rgb(0, 157, 255);
+    padding: 8px 8px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

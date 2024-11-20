@@ -1,0 +1,48 @@
+.detailpage{
+    display: flex;justify-content: center;align-items: center;flex-direction: column;
+}
+.product-detail-page{
+    flex-wrap: wrap;
+    height: 100%;width: 100%;
+    padding:1em ;
+    gap: 2.8rem;
+    background: rgb(225, 223, 223);
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+.product-image{
+    height: 11.6em;width: 10em;
+}
+.product-image img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    height: 100%;width: 100%;object-fit: cover;
+}
+.product-details{
+    flex-direction: column;align-items: flex-start;
+    display: flex;gap: 6px;
+    justify-content: center;
+}
+.product-detail-page h1{font-size: 2.6rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: uppercase;
+}
+.product-detail-page p{
+    width: 40vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;display: inline;
+}
+.buttons button{
+    padding: .5em .8em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: .5em;
+    color: palevioletred;
+    border: 1px solid black;
+    background: white;
+    border-radius: 20px;
+}
+.buttons{
+    align-items: baseline;
+    display: flex;gap: 10px;
+}
